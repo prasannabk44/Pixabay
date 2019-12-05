@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'open sans',sans-serif;
+}
+.logo {
+    background: url("../images/sprites.png");
+    width: 10%;
+    float:left;
+    height:50px;
+    background-position: 5px 50px;
+}
+
+.leftmenu {
+    text-transform: capitalize;
+    width: 42%;
+    float:left;
+    margin:8px 14px 0px 24px;
+}
+.last a{
+    border :1px solid  white;
+    border-radius:20px;
+    background: 0 0;
+    padding: 4px 20px !important;
+}
+.rightmenu {
+    text-align: right;
+    width: 42%;
+    float:right;
+	margin:0px 12px 0px 30px;
+}
+.leftmenu>ul>li:hover,
+.rightmenu>ul>li:hover{
+    background-color:gray;
+}
+ul{
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+.leftmenu>ul>li>a,
+.rightmenu>ul>li>a {
+color:white;
+text-decoration: none;
+padding: 10px;
+display:inline-block;
+}
+.leftmenu>ul>li,
+.rightmenu>ul>li{
+display:inline-block;
+}
+.headerBlock{
+   /* padding: 13px;*/
+    z-index: 1;
+    position: relative;
+}
+
+.rightmenu>ul>li:last-child{
+    padding:30px;
+}
+
+.rightmenu>ul>li:nth-child(2)::after{
+    content: '<';
+    display: inline-block;
+    transform: rotate(-90deg);
+    color:white;
+}
+
+#slidersection{
+    background-image: url("../images/pixabay.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    /*position: absolute;*/
+    top:0;
+    color: white;
+    padding-top:150px;
+}
+#slidersection>header>h1{
+    font-size: 32px;
+}
+#slidersection>footer>form>input{
+    padding:22px;
+    width:60%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border:0;
+    font-size: 19px;
+}
+.searchicon{
+    position: relative;
+    z-index: 1;
+}
+.searchicon i{
+    position: absolute;
+    color:gray;
+    left:16px;
+    top:4px;
+    font-size: 20px;
+    z-index: 1;
+
+}
+
+.slidersection>footer>form>input::placeholder{
+    padding: 0px 30px;
+    font-size: 16px;
+    top:5px;
+    position:relative;
+
+}
+.imagesText{
+    position: relative;
+}
+.imagesText>select{
+    position: absolute;
+    right:0;
+    top:5px;
+    border: none;
+}
+.img1{
+    width:16%;
+    float:left;
+    margin:0 7px;
+}
+.img2{
+    width:31.5%;
+    float:left;
+    margin:0 7px;
+}
+.img3{
+    width:16%;
+    float:left;
+    margin:0 7px;
+}
+.img4{
+    width:31.5%;
+    float:left;
+    margin:0 7px;
+}
+#imageSsection img{
+    width:100%;
+    height:300px
+}
+#imagesSection{
+    width:97%;
+    margin: 0 auto;
+}
+
+
